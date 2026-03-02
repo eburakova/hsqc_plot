@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HSQC Contour Plot</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="css/hsqc-spectrum-style.css" />
+  </head>
+  <body>
+    <div id="plot-container">
+      <svg id="plot" width="900" height="800"></svg>
+      <div id="controls" class="controls">
+        <button id="reset-zoom-btn" type="button" style="margin-top: 10px; width: 100%;">Reset zoom</button>
+      </div>
+    </div>
+    <script src="src/plot_hsqc.js"></script>
+  </body>
+</html>
